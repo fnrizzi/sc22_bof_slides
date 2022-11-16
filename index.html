@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>sc22_bof</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section class="stack" data-id="2810f324407793e3b52bbaa1725f5c0f"><section data-id="2f52793e016a52d8613496d63a7e4260" data-background-image="deck-6de0dc/c43658295b1a3d471551cb0e741f6d93.svg"><div class="sl-block" data-block-type="text" style="width: 853px; left: 53.5px; top: 196px; height: auto;" data-name="text-c35b63" data-block-id="cbaf313be1f26a76bfbd4f15eb1a9531"><div class="sl-block-style" style="z-index: 10; transform: rotate(0deg);"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(255, 255, 255);" dir="ui">
+<h2><strong><span>BOF: Expanding the Impact of Scientific Software Engineering in HPC</span></strong></h2>
+</div></div></div>
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-ddeff7" data-block-id="8e426096e852d6d6b0907e78bdc0ff24" style="height: auto;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 481.875px 506px; z-index: 11;">
+<div class="sl-block" data-block-type="text" data-name="text-f326f2" style="height: auto; width: 600px; left: 182.25px; top: 470px;" data-block-id="23c519e1cd3d067504a8072bf0366d72"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" dir="ui">
+<pre style="text-align:center"><em><strong><span style="font-size:1.0em">Francesco Rizzi</span></strong></em></pre>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 181.5px; top: 503px;" data-name="text-2f2f43" data-block-id="eb6c0d87b76ebff817c146d2bc89c859"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);" dir="ui">
+<p><span style="font-size:0.7em">(NexGen Analytics)</span></p>
+</div></div>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-459c6c" data-block-id="61d0ad46f5658d92c916e12b8fe0b9b3" style="width: 157.3px; height: 121px; left: 401.35px; top: 550px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="1755" data-natural-height="1350" data-lazy-loaded="" data-src="deck-6de0dc/7df976fa615cbae63c9ced959c7cb24b.png"></div></div></section><section data-id="41115554c5489ec9dd7a8c60cf802395"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="267ba7ef23a30367f66ae1d9b9d8f8ba"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;"><h1>Title Text</h1></div></div></section><section data-id="11c0b7c197169d26bbdc9c91ece6d294"><div class="sl-block" data-block-type="text" data-name="text-b70817" data-block-id="afb3a82321b68a520f3098681117876f" style="height: auto; width: 837px; left: 80px; top: 241px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left;">
+<p>...scientific and research codes <strong>would</strong> benefit from the same attention, especially in terms of making codes <strong><span style="color:#FF0000">accessible</span></strong>, <span style="color:#FF0000">interoperable</span>, and <strong><span style="color:#FF0000">reliable</span></strong>.<br>
+ </p>
+
+<p>This BoF will engage a set of expert panelists and the audience in understanding how we can bring <strong>best practices for software engineering</strong> to the <strong>wider audience</strong> of scientific software developers.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-f0ac04" data-block-id="11c0e0b4778caf938a825892eb9eb069" style="height: auto; width: 775.5px; left: 92.25px; top: 66px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2>From the BoF abstract...</h2>
+</div></div></section><section data-id="3de4257047e8d158c199de5ccc3f1fd9"><div class="sl-block" data-block-type="text" data-name="text-938f58" data-block-id="d1397af2c02e8587f3f3ba11aaa69437" style="height: auto; width: 766px; left: 97px; top: 66px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>My contribution today</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ee73ee" data-block-id="d313580ebb586529095c91044d31deb2" style="height: auto; width: 899px; left: 30.5px; top: 190.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;">
+<ul>
+	<li>High-level thoughts, <span style="color:rgb(0, 0, 0); text-align:left">discussion points and </span>lessons learned over years working on scientific computing
+	<ul>
+		<li>both technical aspects as well as social ones<br>
+		 </li>
+	</ul>
+	</li>
+	<li>This is <em>my opinion,</em> <em>my experience</em>
+	<ul>
+		<li>I have been fortunate enough to work with both experienced professionals and students, and<br>
+		both on research and production codes<br>
+		 </li>
+	</ul>
+	</li>
+	<li>Some solutions might seem obvious and/or already heard, but take-home point is that they still do not regularly occur</li>
+</ul>
+</div></div></section></section><section class="stack" data-id="5afca452fa19d72b1f3199459ebf306f"><section data-id="d2861ef05552adbe15b1ea9cbd268e84"><div class="sl-block" data-block-type="text" style="width: 590px; left: 185px; top: 301px; height: auto;" data-block-id="ffd5ceac30753bb97788b5177b75b397"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(0, 0, 0);">
+<h1>Accessibility</h1>
+</div></div></section><section data-id="7028eeae39756e9c5e9dad8ba3c96a18"><div class="sl-block" data-block-type="text" style="width: 940.5px; left: 9.75px; top: 50px; height: auto;" data-block-id="ae1adfd4e3fa574715acd146944eff45"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Libraries' building process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-242ddc" data-block-id="1f7d4018faf6ce4a03ea99cce02dd052" style="height: auto; width: 916px; left: 28.75px; top: 155px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+<span style="font-size:0.9em"><em>Problem</em>: just building a library can be a barrier</span>
+	<ul>
+		<li><span style="font-size:0.9em">Some users shy away from even trying/using a code </span></li>
+		<li>
+<span style="font-size:0.9em">Sometimes inevitably hard: </span>
+		<ul>
+			<li><span style="font-size:0.9em">legacy codes would require a huge investment to revise</span></li>
+			<li>
+<span style="font-size:0.9em">​I</span><span style="font-size:0.9em">s it worth it and/or </span>feasible?</li>
+		</ul>
+		</li>
+		<li><span style="font-size:0.9em">"Magical scripts": known to work, used by lots of people.<br>
+		Often, how they work is "hidden" and brittle</span></li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:0.9em">​<em>Solutions</em>: CMake, Modules, Spack</span></li>
+	<li class="fragment" data-fragment-index="1">
+<span style="font-size:0.9em">Aiming for: <code><span style="font-size:0.9em">pip install &lt;package-name&gt;</span></code></span>
+	<ul>
+		<li><span style="font-size:0.9em">Can we have something similar in HPC/scientific computing? </span></li>
+		<li><span style="font-size:0.9em">​How do we achieve and maintain that? Is it even feasible? </span></li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:0.9em">​It could be that the underlying code needs to be fixed</span></li>
+</ul>
+</div></div></section><section data-id="6986b9f1999836a3a75ce37a03d84d7f"><div class="sl-block" data-block-type="text" style="width: 821px; left: 69.5px; top: 55px; height: auto;" data-block-id="b8da650dc0a629c231ef403ced8558a4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Large codes can be scary </h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-242ddc" style="height: auto; width: 960px; left: 0px; top: 170px;" data-block-id="094a6372e8e5ba8433dba66d0fb0c161"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+	<p><em>Problem</em>: in several cases, junior researchers and postdocs<br>
+	                 avoid working with/contributing to large codes</p>
+
+	<ul>
+		<li>
+		<p>This mostly occurs for non-CS people</p>
+		</li>
+		<li style="color:rgb(0, 0, 0)">
+		<p>A mental barrier, lack of documentation, as well as perception that working on large codes is a divergence from their goal</p>
+		</li>
+		<li style="color:rgb(0, 0, 0)">
+		<p style="color:rgb(0, 0, 0)">Separate codes are developed for research purposes etc:<br>
+		leading to many "one-off" codes </p>
+		</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1" style="color:rgb(0, 0, 0)">
+<em>Solutions</em>:
+	<ul>
+		<li style="color:rgb(0, 0, 0)">Improve documentation to make it more accessible </li>
+		<li>Support new developers using the code for research</li>
+		<li style="color:rgb(0, 0, 0)">Value development as part of the research: development as part of the deliverable</li>
+	</ul>
+	</li>
+</ul>
+</div></div></section><section data-id="c63a9663860b23a5fb9e7ba97c13ec33"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 56px; height: auto;" data-block-id="c0560b3d4d8328566620304e11f8bb26"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Documentation not a priority</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-242ddc" style="height: auto; width: 960px; left: 0px; top: 178.5px;" data-block-id="18da591d8f54fb54d088afbd8f5bf469"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;" dir="ui">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+<em>Problem</em>:
+	<ul>
+		<li>Documentation is sacrificed to meet deliverables</li>
+		<li>Lags behind development </li>
+		<li>Written <strong>after</strong> the development is complete</li>
+		<li>Documenting the API might not be enough: might still take lots of mental jumps to really understand <em>how to use it</em>, especially true for new/inexperienced users</li>
+		<li>Lacking proper/practical "usability documentation"<br>
+		 </li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+<em>Solutions</em>:
+	<ul>
+		<li>Write doc while developing...</li>
+		<li>...but where to find the resources?</li>
+	</ul>
+	</li>
+</ul>
+</div></div>
+
+</section><section data-id="87785d9aa623dd908ca015e25aca8ef0"><div class="sl-block" data-block-type="text" style="width: 635px; left: 85px; top: 33px; height: auto;" data-block-id="85d1922b397ef74219a7ea0cde986d75"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Examples do help</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="code" data-name="code-e63017" style="width: 901px; height: 104px; left: 14.75px; top: 124px;" data-block-id="314e8a2d0344a80976d368aed9c9c0f6"><div class="sl-block-content notranslate fragment" data-highlight-theme="solarized-dark" data-code-frame="none" style="z-index: 11;" data-fragment-index="0"><pre style="font-size: 22px; line-height: 26px;" class="cpp"><code data-line-numbers="">template&lt; class ExecutionPolicy, class RandomIt, class Compare &gt;
+void sort( ExecutionPolicy&amp;&amp; policy, 
+           RandomIt first, RandomIt last, Compare comp );</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-881620" style="height: auto; width: 826.5px; left: 66.75px; top: 228px;" data-block-id="49023d172f201a6ac3a98ba9e7dadf3f"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<p style="text-align:left"><span style="font-size:0.9em">- <code>policy</code>:           execution policy </span></p>
+
+<p style="text-align:left"><span style="font-size:0.9em">- <code>first</code>, <code>last</code>:  random access iterators to the range of elements</span></p>
+
+<p style="text-align:left"><span style="font-size:0.9em">- <code>comp</code>:                comparison functor</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" data-name="code-8098d9" data-block-id="7b3a8338fa44e2de9cdfaabeeaeb4780" style="width: 901px; height: 313px; left: 14.75px; top: 363px;"><div class="sl-block-content notranslate fragment" data-highlight-theme="solarized-dark" data-code-frame="none" style="z-index: 13;" data-fragment-index="1"><pre class="cpp" style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">int main()
+{
+  std::array&lt;int, 10&gt; s = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
+
+  std::sort(s.begin(), s.end());
+  print("sorted with the default operator&lt;");
+ 
+  struct {
+    bool operator()(int a, int b) const { return a &lt; b; }
+  } customLess;
+  std::sort(s.begin(), s.end(), customLess);
+  print("sorted with a custom function object");
+ 
+  std::sort(s.begin(), s.end(), [](int a, int b) { return a &gt; b; });
+  print("sorted with a lambda expression");
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ba4ce4" data-block-id="1c1ce032e85a4f4bc3acfa3d51bd860b" style="height: auto; width: 263px; left: 668.5px; top: 50.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p>(source: C++ doc)</p>
+</div></div></section></section><section class="stack" data-id="0bf1e74076646e8cb18cb5b4782722c4"><section data-id="4db796c9d00a41a0515477a8f1202cd3"><div class="sl-block" data-block-type="text" style="width: 590px; left: 185px; top: 301px; height: auto;" data-block-id="c12bf51d77fb3b038228eae8f602c4e6"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(0, 0, 0);">
+<h1>Reliability</h1>
+</div></div></section><section data-id="16ecd5760630964a589c8ef76a2603c1"><div class="sl-block" data-block-type="text" style="width: 726px; left: 117px; top: 52px; height: auto;" data-block-id="c833222ce1a3204971a9a55cde2a1761"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Modularity and <em>public</em> APIs are critical</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-7f90d2" data-block-id="18516a88c67182e8520f49fc0a58cbb9" style="height: auto; width: 960px; left: 0px; top: 244.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li style="text-align: left;" class="fragment" data-fragment-index="0">This impacts both accessibility and reliability<br>
+	 </li>
+	<li style="text-align: left;" class="fragment" data-fragment-index="0">
+<em>Problem</em>:
+	<ul>
+		<li style="text-align: left;">For convenience, sometimes "things" are lumped all together</li>
+		<li style="text-align: left;">Bad shortcuts: using implementation details from different packages leads to all sorts of problems</li>
+	</ul>
+	</li>
+	<li style="text-align: left;" class="fragment" data-fragment-index="1">
+<em>Solution</em>:
+	<ul>
+		<li style="text-align: left;">Large codes should have appropriate modularity</li>
+		<li style="text-align: left;">Modules/packages should interoperate via their public APIs</li>
+		<li style="text-align: left;">Should be able to reason about modules independently</li>
+	</ul>
+	</li>
+</ul>
+</div></div></section><section data-id="c3a33dc627383f3949172c2332f771aa"><div class="sl-block" data-block-type="text" style="width: 821px; left: 69.5px; top: 49px; height: auto;" data-block-id="9a2c19a796982d1e1849d94b45e6d55f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Tests are a "burden"</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-242ddc" style="height: auto; width: 960px; left: 0px; top: 163.5px;" data-block-id="9c9a0efc745e2cd88273b55e9442d014"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+<em>Problem</em>:
+	<ul>
+		<li>Some research codes efforts still consider testing <span style="color:rgb(0, 0, 0); text-align:left">(both functional and performance) </span>as a "burden" rather than added value or "must-have"</li>
+		<li>Resources: tests are typically not considered deliverables </li>
+		<li>
+		<p>A lag develops and it then becomes harder to catch up</p>
+		</li>
+		<li>
+		<p style="color:rgb(0, 0, 0); text-align:left">Reliability is thus sacrificed for "progress" and deliverables </p>
+		</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+	<p style="color:rgb(0, 0, 0); text-align:left"><em>Solution</em>: </p>
+
+	<ul>
+		<li>
+		<p style="color:rgb(0, 0, 0); text-align:left">Tests should be deemed invaluable in research codes</p>
+		</li>
+		<li>
+		<p style="color:rgb(0, 0, 0); text-align:left">A well-tested research code becomes more easily a reliable production code</p>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div></div></section><section data-id="fe0d513b3210d99f5876ef49eff826c3"><div class="sl-block" data-block-type="text" style="width: 750px; left: 105px; top: 66px; height: auto;" data-block-id="459f247bf815b5af994c073d214c0e81"><div class="sl-block-style" style="z-index: 10; transform: rotate(0deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>CI can be a bottleneck</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-242ddc" style="height: auto; width: 960px; left: 0px; top: 195px;" data-block-id="e735552796a2edd60f25b567056a0376"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;">
+<ul>
+	<li class="fragment" data-fragment-index="0" style="color:rgb(0, 0, 0)">
+<em>Problem</em>:
+	<ul>
+		<li style="color:rgb(0, 0, 0)">Choosing among cloud-based vs local testing servers 
+		<ul>
+			<li>sometimes local ones are necessary (private data, etc)</li>
+		</ul>
+		</li>
+		<li>Increased queue times </li>
+		<li>Test granularity, many pipelines tested, variety of compilers </li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+<em>Solution</em>:
+	<ul>
+		<li>Sometimes there is nothing you can do: limited resources<br>
+		(e.g. one GPU available)</li>
+		<li>Mix/use different CI tools </li>
+		<li>Refactoring/revising tests (continue on next slide)</li>
+	</ul>
+	</li>
+</ul>
+</div></div></section><section data-id="203d0ef7eedfe3d2196ff273125144cb"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 70px; height: auto;" data-block-id="5dc77749437f97b97deda636bf37cd72"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Test granularity matters</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-242ddc" style="height: auto; width: 960px; left: 0px; top: 195px;" data-block-id="6188b2ee77395da6275a9eeafd483972"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+	<p><em>Problem</em>:</p>
+
+	<ul>
+		<li>
+		<p>Stuck with a given test suite/framework to use and increment</p>
+		</li>
+		<li>
+		<p>Refrain from adding tests because it increases build time:<br>
+		<span style="font-size:0.9em">I know of a production code where developers have a hard limit on the # of tests they can add for a given new feature</span></p>
+		</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+	<p><em>Solution</em>:</p>
+
+	<ul>
+		<li>
+		<p>Separate functional from performance tests </p>
+		</li>
+		<li>
+		<p>Sometimes refactoring the test suite is needed</p>
+		</li>
+		<li>
+		<p>Revise the granularity of functional tests </p>
+
+		<ul>
+			<li>
+			<p>Hierarchical tests: if one "level" fails, do not run the others </p>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div></div></section><section data-id="f9ca7726f657458ddd095ab40a762334"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 66px; height: auto;" data-block-id="8b904a7652c93cfdf511d98a758df1f4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>
+<span>Predict </span>"unexpected usage"</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-242ddc" style="height: auto; width: 960px; left: 0px; top: 180px;" data-block-id="c7f5fcb662f25651b5c63f9541500798"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: justify;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+<em>Problem</em>:
+	<ul>
+		<li>Tests are by construction biased:
+		<ul>
+			<li><span style="color:rgb(0, 0, 0); text-align:left">written by human beings</span></li>
+			<li>check for "expected" things (according to who wrote it)</li>
+		</ul>
+		</li>
+		<li>Discrepancy between the "intended" use of software<br>
+		and what general users actually do in practice
+		<ul>
+			<li>users find all sort of unique ways to use/break your code</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+<em>Solutions</em>:
+	<ul>
+		<li>Code reviews</li>
+		<li>Mimic somehow this "random/human" aspect in tests</li>
+		<li>Hard problem</li>
+	</ul>
+	</li>
+</ul>
+</div></div></section></section><section data-id="82c169812c6fa46ec39c4248c4683eec" data-background-image="deck-6de0dc/c43658295b1a3d471551cb0e741f6d93.svg"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 201px; height: auto;" data-block-id="41d7a3fb6c86b6eedd5c16c5768685d2"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(255, 255, 255);">
+<h1>Thanks for listening!</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 335px; height: auto;" data-block-id="71ddc62ac0868bf1b9071e6a1e37c5b2"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; color: rgb(255, 255, 255);">
+<p><strong>francesco.rizzi@ng-analytics.com</strong><br>
+ </p>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+<p>https://www.ng-analytics.com</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-459c6c" style="width: 231.4px; height: 178px; left: 364.3px; top: 441px; min-width: 1px; min-height: 1px;" data-block-id="a010c37502609422314b522e9e5af72d"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="1755" data-natural-height="1350" data-lazy-loaded="" data-src="deck-6de0dc/7df976fa615cbae63c9ced959c7cb24b.png"></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":2499963,"slug":"deck-6de0dc","title":"sc22_bof","description":"","width":960,"height":700,"margin":0.05,"visibility":"all","published_at":"2022-11-14T20:38:30.477Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/d34bdc72876ba42d98632331415cf0f4/thumb.jpg?1668542852","view_count":2,"user":{"id":1300184,"username":"francescorizzi","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/1acc77bbeb199d9d87e3ea2120279e56?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"lite","team_id":null,"settings":{"id":5147769,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":19,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1668564064244,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":null,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
