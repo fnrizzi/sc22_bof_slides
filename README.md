@@ -1,6 +1,8 @@
 # sc22_bof_slides
 
-slides presented here: 
+slides here: https://fnrizzi.github.io/sc22_bof_slides/
+
+Presented at: 
 
 - https://ssecenter.cc.gatech.edu/sc-22-bof/
 
